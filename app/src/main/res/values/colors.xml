@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // --- Primary Blues ---//
+    <color name="almost_white_blue">#daf8e3</color>
+    <color name="light_teal">#97ebdb</color>
+    <color name="teal">#00c2c7</color>
+    <color name="blue_teal_light">#0086ad</color>
+    <color name="blue_teal_dark">#005582</color>
+    <color name="super_dark_teal">#00313c</color>
+    <color name="accent_peach"> #ff8b61</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    // --- Pastels ---//
+
+    <color name="light_mint">#a8e6cf</color>
+    <color name="light_yellow">#dcedc1</color>
+    <color name="light_orange">#ffd3b6</color>
+    <color name="light_red_orange">#ffaaa5</color>
+    <color name="light_red">#ff8b94</color>
+
+
+
+
+    #a8e6cf	(168,230,207)
+    #dcedc1	(220,237,193)
+    #ffd3b6	(255,211,182)
+    #ffaaa5	(255,170,165)
+    #ff8b94
+</resources>

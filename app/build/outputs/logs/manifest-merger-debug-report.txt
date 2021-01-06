@@ -1,0 +1,318 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/30af0c02e5537d84a9fece297babe243/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/dc38711550f81f23f431b9a0b8abcaa7/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e9ce15cf8dc6d3f936f25d972f0bd571/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-compose:1.0.0-alpha04] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/34154fa21633e42024bd307f45abba2b/jetified-navigation-compose-1.0.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3c8fd4f54a6f6101eb286f5f4b152e74/jetified-ui-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/17ecf8acbb05709695c268ce36a08975/jetified-ui-text-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/24ca32c2decd6b829844101ee1c206a2/jetified-animation-core-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0026dce1af90733b4c4b97cd6839c2b5/jetified-ui-graphics-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5198ffec999d40bba27720cd402c3024/jetified-ui-unit-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f5848609c27b02aa935a68a3c91e52ad/jetified-ui-geometry-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5af30140f9ba0dfeb8a7c92409a954a2/jetified-ui-util-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1e8e4a6be51bab9d60df0f8cf7d10635/jetified-runtime-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/454710d49ee0c1cac77bf91d5f9f39da/navigation-ui-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4f060c50529c3714b8b9fca2d9dd098d/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/79a9301c3b5e685cb554a8a59b473142/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/53956b02398def7684b897dbb018fca4/navigation-common-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85ae74c57985692f1fa3c5b181e73cd3/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/fc9c0e3bdbcf39b8b73c9a08c542a0f2/jetified-runtime-dispatch-1.0.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc7f87090ca34390094702bb2008170d/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/48520777e74a5e5088f9597951bf8191/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/7d67ad7ac45429e60c202009faa29f2d/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc4dc3d0cdd01db84c64a8bb8a66f7b9/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/83ee536ff85059f31aed7ca0e988de80/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/235caf6e6ae91723124fa11cd961b2d6/navigation-ui-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6927ee2c7c83df57add1b0afde3e1a15/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/66bcfd00d1a09f7d78b50a0156b7856f/appcompat-1.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3990a8ed717bd2bc6e24bbecabdfebbf/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d5e5b995853df9e3b0d1abde469bc084/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e41c5fdd6fbdc7701ef012362c791f0d/recyclerview-1.2.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0426c59d34591c385d025db761277bc5/jetified-circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f7dcd5aa3c371deeb35bf3ad9e77bf62/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/694d0be3fb304a602e963f34c6dab06a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/49aba613bdd47a2840bedfc242c31d57/jetified-appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f379d95d0ff945370307735e7dfa5572/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6cbf3df7a545fb9e98deff97defeff25/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/be488b41fa4da0b2563ef53aa9c1f1eb/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/db2a5176dd11fa70694996bbf2c63971/navigation-fragment-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c1d89f689ecaa3b277446187d38c40fc/fragment-1.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/271e6de7ce9db873cdad8b436fb11a39/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/b1af35d851a7b1902f51e36b8a695b43/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bf47b15611f180761b95369d1114cca0/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3425f4f64275ce0af03596aea0af1191/navigation-runtime-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c70848dad71b32fed76e2b128d2e0161/navigation-common-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1cace11ad28101e6275fa9b357e56c49/jetified-activity-1.2.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/94fca6e93348077f71492f05ee7246d2/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0c7c4d6c761a5f35ff1701d1fe2abe7e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4a993e2718a72ba4f84b8a60ea1226c0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/a575445b38972d9017bd01112f4088be/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/cd5e9aa0e04c0d0df40681cc40dad0e7/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d01147d7c67457cd14dee96e68d7c2be/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3399da4652887216b1f15e9fea5a64cb/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85698750e7c12cd9f9be6f44fb1538d9/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3ea8b52e54a562e5857caf58d39d99a3/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/2518f9da7fb7bb4b07df00ac622212fd/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d54b1e1a7f5f51df407f964db1685795/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c4504c46a8f8c951228c8b302e2173c2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/139dd713697991e78371aa7203510e73/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/83ee536ff85059f31aed7ca0e988de80/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/83ee536ff85059f31aed7ca0e988de80/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6927ee2c7c83df57add1b0afde3e1a15/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6927ee2c7c83df57add1b0afde3e1a15/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0426c59d34591c385d025db761277bc5/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0426c59d34591c385d025db761277bc5/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4a993e2718a72ba4f84b8a60ea1226c0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4a993e2718a72ba4f84b8a60ea1226c0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:14:9-55
+activity#com.example.projectjuicyfruit.HomeActivity
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/30af0c02e5537d84a9fece297babe243/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/30af0c02e5537d84a9fece297babe243/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/dc38711550f81f23f431b9a0b8abcaa7/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/dc38711550f81f23f431b9a0b8abcaa7/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e9ce15cf8dc6d3f936f25d972f0bd571/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e9ce15cf8dc6d3f936f25d972f0bd571/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:1.0.0-alpha04] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/34154fa21633e42024bd307f45abba2b/jetified-navigation-compose-1.0.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:1.0.0-alpha04] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/34154fa21633e42024bd307f45abba2b/jetified-navigation-compose-1.0.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3c8fd4f54a6f6101eb286f5f4b152e74/jetified-ui-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3c8fd4f54a6f6101eb286f5f4b152e74/jetified-ui-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/17ecf8acbb05709695c268ce36a08975/jetified-ui-text-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/17ecf8acbb05709695c268ce36a08975/jetified-ui-text-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/24ca32c2decd6b829844101ee1c206a2/jetified-animation-core-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/24ca32c2decd6b829844101ee1c206a2/jetified-animation-core-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0026dce1af90733b4c4b97cd6839c2b5/jetified-ui-graphics-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0026dce1af90733b4c4b97cd6839c2b5/jetified-ui-graphics-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5198ffec999d40bba27720cd402c3024/jetified-ui-unit-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5198ffec999d40bba27720cd402c3024/jetified-ui-unit-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f5848609c27b02aa935a68a3c91e52ad/jetified-ui-geometry-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f5848609c27b02aa935a68a3c91e52ad/jetified-ui-geometry-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5af30140f9ba0dfeb8a7c92409a954a2/jetified-ui-util-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/5af30140f9ba0dfeb8a7c92409a954a2/jetified-ui-util-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1e8e4a6be51bab9d60df0f8cf7d10635/jetified-runtime-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1e8e4a6be51bab9d60df0f8cf7d10635/jetified-runtime-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/454710d49ee0c1cac77bf91d5f9f39da/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/454710d49ee0c1cac77bf91d5f9f39da/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4f060c50529c3714b8b9fca2d9dd098d/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4f060c50529c3714b8b9fca2d9dd098d/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/79a9301c3b5e685cb554a8a59b473142/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/79a9301c3b5e685cb554a8a59b473142/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/53956b02398def7684b897dbb018fca4/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/53956b02398def7684b897dbb018fca4/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85ae74c57985692f1fa3c5b181e73cd3/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85ae74c57985692f1fa3c5b181e73cd3/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/fc9c0e3bdbcf39b8b73c9a08c542a0f2/jetified-runtime-dispatch-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha09] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/fc9c0e3bdbcf39b8b73c9a08c542a0f2/jetified-runtime-dispatch-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc7f87090ca34390094702bb2008170d/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc7f87090ca34390094702bb2008170d/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/48520777e74a5e5088f9597951bf8191/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/48520777e74a5e5088f9597951bf8191/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/7d67ad7ac45429e60c202009faa29f2d/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/7d67ad7ac45429e60c202009faa29f2d/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc4dc3d0cdd01db84c64a8bb8a66f7b9/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bc4dc3d0cdd01db84c64a8bb8a66f7b9/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/83ee536ff85059f31aed7ca0e988de80/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/83ee536ff85059f31aed7ca0e988de80/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/235caf6e6ae91723124fa11cd961b2d6/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/235caf6e6ae91723124fa11cd961b2d6/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6927ee2c7c83df57add1b0afde3e1a15/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6927ee2c7c83df57add1b0afde3e1a15/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/66bcfd00d1a09f7d78b50a0156b7856f/appcompat-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/66bcfd00d1a09f7d78b50a0156b7856f/appcompat-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3990a8ed717bd2bc6e24bbecabdfebbf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3990a8ed717bd2bc6e24bbecabdfebbf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d5e5b995853df9e3b0d1abde469bc084/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d5e5b995853df9e3b0d1abde469bc084/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e41c5fdd6fbdc7701ef012362c791f0d/recyclerview-1.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/e41c5fdd6fbdc7701ef012362c791f0d/recyclerview-1.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0426c59d34591c385d025db761277bc5/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0426c59d34591c385d025db761277bc5/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f7dcd5aa3c371deeb35bf3ad9e77bf62/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f7dcd5aa3c371deeb35bf3ad9e77bf62/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/694d0be3fb304a602e963f34c6dab06a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/694d0be3fb304a602e963f34c6dab06a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/49aba613bdd47a2840bedfc242c31d57/jetified-appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/49aba613bdd47a2840bedfc242c31d57/jetified-appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f379d95d0ff945370307735e7dfa5572/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/f379d95d0ff945370307735e7dfa5572/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6cbf3df7a545fb9e98deff97defeff25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/6cbf3df7a545fb9e98deff97defeff25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/be488b41fa4da0b2563ef53aa9c1f1eb/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/be488b41fa4da0b2563ef53aa9c1f1eb/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/db2a5176dd11fa70694996bbf2c63971/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/db2a5176dd11fa70694996bbf2c63971/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c1d89f689ecaa3b277446187d38c40fc/fragment-1.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c1d89f689ecaa3b277446187d38c40fc/fragment-1.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/271e6de7ce9db873cdad8b436fb11a39/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/271e6de7ce9db873cdad8b436fb11a39/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/b1af35d851a7b1902f51e36b8a695b43/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/b1af35d851a7b1902f51e36b8a695b43/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bf47b15611f180761b95369d1114cca0/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/bf47b15611f180761b95369d1114cca0/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3425f4f64275ce0af03596aea0af1191/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3425f4f64275ce0af03596aea0af1191/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c70848dad71b32fed76e2b128d2e0161/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c70848dad71b32fed76e2b128d2e0161/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1cace11ad28101e6275fa9b357e56c49/jetified-activity-1.2.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/1cace11ad28101e6275fa9b357e56c49/jetified-activity-1.2.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/94fca6e93348077f71492f05ee7246d2/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/94fca6e93348077f71492f05ee7246d2/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0c7c4d6c761a5f35ff1701d1fe2abe7e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/0c7c4d6c761a5f35ff1701d1fe2abe7e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/9f2c5a15593683bfb4d8391e954d3714/core-1.5.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4a993e2718a72ba4f84b8a60ea1226c0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/4a993e2718a72ba4f84b8a60ea1226c0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/a575445b38972d9017bd01112f4088be/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/a575445b38972d9017bd01112f4088be/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/cd5e9aa0e04c0d0df40681cc40dad0e7/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/cd5e9aa0e04c0d0df40681cc40dad0e7/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d01147d7c67457cd14dee96e68d7c2be/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d01147d7c67457cd14dee96e68d7c2be/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3399da4652887216b1f15e9fea5a64cb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3399da4652887216b1f15e9fea5a64cb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85698750e7c12cd9f9be6f44fb1538d9/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/85698750e7c12cd9f9be6f44fb1538d9/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3ea8b52e54a562e5857caf58d39d99a3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/3ea8b52e54a562e5857caf58d39d99a3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/2518f9da7fb7bb4b07df00ac622212fd/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/2518f9da7fb7bb4b07df00ac622212fd/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d54b1e1a7f5f51df407f964db1685795/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/d54b1e1a7f5f51df407f964db1685795/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c4504c46a8f8c951228c8b302e2173c2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/c4504c46a8f8c951228c8b302e2173c2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/139dd713697991e78371aa7203510e73/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/139dd713697991e78371aa7203510e73/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melgeniusplaza/Desktop/Black_hole/Project/ProjectJuicyFruit-main/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/8712b4a53f2b46d4f2f2fd600fbe29be/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/melgeniusplaza/.gradle/caches/transforms-2/files-2.1/ff13484545158fb52853940274b78d40/jetified-core-1.7.2/AndroidManifest.xml:16:14-95

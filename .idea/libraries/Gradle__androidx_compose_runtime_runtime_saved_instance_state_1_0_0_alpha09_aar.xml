@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha09@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a84e253dcf2e90dff617cd1723caf89b/jetified-runtime-saved-instance-state-1.0.0-alpha09/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ec9e3f6672fd364a6b45d2621f0548c/jetified-runtime-saved-instance-state-1.0.0-alpha09/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/684526d80ec318ed08f09898b5f1596a/jetified-runtime-saved-instance-state-1.0.0-alpha09/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saved-instance-state/1.0.0-alpha09/9488495ec3c36d4161e7d62da13fe645e00dbb30/runtime-saved-instance-state-1.0.0-alpha09-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
