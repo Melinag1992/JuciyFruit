@@ -1,49 +1,24 @@
 package com.example.projectjuicyfruit
 
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.NavHostFragment
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.projectjuicyfruit.adapters.RecyclerAdapter
-
-lateinit var  rec_view: RecyclerView
-
-var  listOfItems = arrayOf("One","two","three","four","five","six")
-
+import com.example.projectjuicyfruit.screens.DashboardFragment
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.new_activity_main)
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.nav_host_fragment_container, DashboardFragment())
+            .commit()
 
-        inflateView()
-
-    /*   // nav controller
-        val navHostFragment =
-            supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        val navController = navHostFragment.navController
-*/
+        /*   // nav controller
+            val navHostFragment =
+                supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+            val navController = navHostFragment.navController
+    */
     }
-
-
-    fun inflateView() {
-        // Inflating recview
-        var adapter = RecyclerAdapter()
-        rec_view = findViewById(R.id.rec_view);
-        rec_view.visibility = View.VISIBLE
-        val gridLayout = LinearLayoutManager(this)
-        rec_view.layoutManager = gridLayout
-        rec_view.adapter = adapter
-        adapter.setList(listOfItems)
-
-        rec_view.isNestedScrollingEnabled = false
-
-
-    }
-
 }
 
 
