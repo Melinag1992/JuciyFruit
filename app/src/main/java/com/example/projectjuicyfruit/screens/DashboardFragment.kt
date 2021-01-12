@@ -8,18 +8,18 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
-import com.example.projectjuicyfruit.data.Animal
+import com.example.projectjuicyfruit.data.petfinder.Pet.PetDetails
 import kotlinx.android.synthetic.main.dashboard_fragment.*
 
 class DashboardFragment : Fragment() {
-  private var items: MutableList<Animal>
+  private var items: MutableList<PetDetails>
 
   init {
-    items = MutableList(5) {
-      Animal(
-        "Animal ${it + 1}",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.guidedogs.org%2Fwp-content%2Fuploads%2F2018%2F01%2FMobile.jpg&f=1&nofb=1",
-        it + 1
+    items = MutableList(59) {
+      PetDetails(
+        1,
+        "Pet Number ${it + 1}",
+        "https://images.dog.ceo/breeds/ridgeback-rhodesian/n02087394_138.jpg"
       )
     }
   }
