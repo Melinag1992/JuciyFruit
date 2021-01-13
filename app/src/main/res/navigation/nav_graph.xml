@@ -2,16 +2,32 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeActivity">
+    app:startDestination="@id/dashboardFragment">
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.projectjuicyfruit.screens.DashboardFragment"
+        android:label="DashboardFragment">
 
-    <activity
-        android:id="@+id/homeActivity"
-        android:name="com.example.projectjuicyfruit.HomeActivity"
-        android:label="HomeActivity"/>
-    <action
-        android:id="@+id/homeActivity_to_action_placeholder"
-        app:destination="@+id/placeholder" />
-        />
-    <fragment android:id="@+id/placeholder">
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/fragment_two" />
+        <!--        <action-->
+        <!--            android:id="@+id/action_title_screen_to_register"-->
+        <!--            app:destination="@id/fragment_tw"-->
+        <!--            app:popEnterAnim="@anim/slide_in_left"-->
+        <!--            app:popExitAnim="@anim/slide_out_right"-->
+        <!--            app:enterAnim="@anim/slide_in_right"-->
+        <!--            app:exitAnim="@anim/slide_out_left"/>-->
+
     </fragment>
+    <fragment
+        android:id="@+id/fragment_two"
+        android:name="com.example.projectjuicyfruit.screens.FragmentTwo"
+        android:label="Fragment_two">
+        <action
+            android:id="@+id/back_home"
+            app:destination="@+id/dashboardFragment" />
+    </fragment>
+
+
 </navigation>

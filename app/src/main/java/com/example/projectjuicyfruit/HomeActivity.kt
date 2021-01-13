@@ -8,10 +8,11 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.new_activity_main)
-        supportFragmentManager
-            .beginTransaction()
-            .replace(R.id.nav_host_fragment_container, DashboardFragment())
-            .commit()
+
+//        supportFragmentManager
+//            .beginTransaction()
+//            .replace(R.id.nav_host_fragment_container, DashboardFragment())
+//            .commit()
 
         /*   // nav controller
             val navHostFragment =
