@@ -21,11 +21,14 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField 'String', "PetFinderApiKey", PETFINDER_API_KEY
+            buildConfigField 'String', "PetFinderClientId", PETFINDER_API_KEY
+            buildConfigField 'String', "PetFinderClientSecret", PETFINDER_CLIENT_SECRET
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', "PetFinderClientId", PETFINDER_API_KEY
+            buildConfigField 'String', "PetFinderClientSecret", PETFINDER_CLIENT_SECRET
         }
     }
     compileOptions {

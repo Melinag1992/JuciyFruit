@@ -1,6 +1,9 @@
 package com.example.projectjuicyfruit.network
 
+import com.example.projectjuicyfruit.BuildConfig
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
+import io.reactivex.rxjava3.core.Scheduler
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -14,24 +17,32 @@ import retrofit2.converter.gson.GsonConverterFactory
  * cleaner integration with a Dependency Injection framework.*/
 
 class ApiClient(
-  private var loggingInterceptor: HttpLoggingInterceptor?
+  private var loggingInterceptor: HttpLoggingInterceptor?,
+  private var scheduler: Scheduler
 ) {
   private var petFinderBaseUrl: String = PET_FINDER_BASE_URL
     set(value) {
       field = value
-      initPetFinderApi()
+      initApis()
     }
 
   private lateinit var petFinderApi: PetFinderApi
 
-  private fun initPetFinderApi() {
-    petFinderApi = createApi(petFinderBaseUrl)
+  private fun initApis() {
+    petFinderApi = createApi(petFinderBaseUrl, PetFinderInterceptor(scheduler))
   }
 
-  private inline fun <reified T : Any> createApi(baseUrl: String): T {
+  private inline fun <reified T : Any> createApi(
+    baseUrl: String,
+    apiInterceptor: Interceptor? = null
+  ): T {
     val builder = OkHttpClient.Builder()
 
     loggingInterceptor?.let {
+      builder.addInterceptor(it)
+    }
+
+    apiInterceptor?.let {
       builder.addInterceptor(it)
     }
 
@@ -48,19 +59,21 @@ class ApiClient(
   }
 
   init {
-    initPetFinderApi()
+    initApis()
   }
 
   companion object {
     const val PET_FINDER_BASE_URL: String = "https://api.petfinder.com/v2/"
   }
 
+
   /**
-   * Gets [Dog]s
+   * Gets new auth token
    *
-   * See [PetFinderApi.getDogs]
+   * See [PetFinderApi.getPetFinderToken]
    */
-//  fun getDogs() = dogsApi.getDogs()
+  fun getPetFinderToken() =
+    petFinderApi.getPetFinderToken(BuildConfig.PetFinderClientId, BuildConfig.PetFinderClientSecret)
 
 //  /**
 //   * Gets [Volume]s by author
