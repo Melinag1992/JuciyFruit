@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.projectjuicyfruit.R
-import com.example.projectjuicyfruit.data.petfinder.Pet.PetDetails
+import com.example.projectjuicyfruit.data.petfinder.Animal.PetDetails
 import com.example.projectjuicyfruit.viewholders.ItemsViewHolder
 
 
@@ -34,5 +34,6 @@ class ItemsAdapter(private var items: MutableList<PetDetails>) :
 
     fun setData(listOfItem: MutableList<PetDetails>) {
         items = listOfItem
+        notifyDataSetChanged()
     }
 }

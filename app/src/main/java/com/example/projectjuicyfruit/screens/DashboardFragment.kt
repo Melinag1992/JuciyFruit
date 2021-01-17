@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
-import com.example.projectjuicyfruit.data.petfinder.Pet.PetDetails
+import com.example.projectjuicyfruit.data.petfinder.Animal.PetDetails
 import com.example.projectjuicyfruit.network.ApiClient
 import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
 import dagger.hilt.android.AndroidEntryPoint
@@ -34,9 +34,10 @@ class DashboardFragment : Fragment() {
   lateinit var preferences: SharedPreferencesHelper
 
   private var items: MutableList<PetDetails>
+  private val itemsAdapter = ItemsAdapter(mutableListOf())
 
   init {
-    items = MutableList(59) {
+    items = MutableList(10) {
       PetDetails(
         1,
         "Pet Number ${it + 1}",
@@ -56,12 +57,12 @@ class DashboardFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
     inflateRecyclerView()
-    apiClient.getPetFinderToken()
+    apiClient.getAnimals()
       .subscribeOn(scheduler)
       .observeOn(mainThreadScheduler)
       .subscribe(
         {
-          preferences.savePetFinderAuthToken(it.accessToken)
+          itemsAdapter.setData(it.animals.toMutableList())
         },
         Throwable::printStackTrace
       )
@@ -70,6 +71,6 @@ class DashboardFragment : Fragment() {
   private fun inflateRecyclerView() {
     val layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
     horizontal_recview.layoutManager = layoutManager
-    horizontal_recview.adapter = ItemsAdapter(items)
+    horizontal_recview.adapter = itemsAdapter
   }
 }

@@ -78,6 +78,13 @@ class ApiClient @Inject constructor(
       clientSecret = BuildConfig.PetFinderClientSecret
     )
 
+  /**
+   * Gets list of Animals
+   *
+   * See [PetFinderApi.getAnimals]
+   * */
+  fun getAnimals() = petFinderApi.getAnimals()
+
 //  /**
 //   * Gets [Volume]s by author
 //   *
