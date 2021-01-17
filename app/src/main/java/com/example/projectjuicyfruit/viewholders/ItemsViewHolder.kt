@@ -15,7 +15,10 @@ class ItemsViewHolder(view: View) : RecyclerView.ViewHolder(view) {
   fun bind(animal: Animal.PetDetails) {
     textViewName.text = animal.name
     animal.photos?.let {
-      if (it.isNotEmpty()) Picasso.get().load(it[0].medium).into(imageView)
+      if (it.isNotEmpty())
+        Picasso.get().load(it[0].medium).into(imageView)
+      else
+        Picasso.get().load(R.drawable.odiegarfield).into(imageView)
     }
   }
 }

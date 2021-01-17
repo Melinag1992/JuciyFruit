@@ -1629,6 +1629,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable odiegarfield
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1722,7 +1723,6 @@ id bounce
 id buttonPanel
 id cache_measures
 id cancel_button
-id cat_title
 id center
 id center_horizontal
 id center_vertical
@@ -1749,6 +1749,7 @@ id cos
 id custom
 id customPanel
 id cut
+id dashboard_rv
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1810,7 +1811,6 @@ id homeActivity
 id homeActivity_to_action_placeholder
 id homeAsUp
 id honorRequest
-id horizontal_recview
 id icon
 id icon_group
 id ifRoom
@@ -1834,7 +1834,6 @@ id line3
 id linear
 id listMode
 id list_item
-id logotitle
 id masked
 id message
 id middle
@@ -1870,7 +1869,6 @@ id mtrl_picker_title_text
 id multiply
 id nav_controller_view_tag
 id nav_graph
-id nav_host_fragment
 id nav_host_fragment_container
 id navigation_header_container
 id never
@@ -1905,7 +1903,6 @@ id progress_icon
 id progress_title
 id radio
 id ratio
-id rec_view
 id rectangles
 id reverseSawtooth
 id right
@@ -1989,6 +1986,7 @@ id textSpacerNoTitle
 id textStart
 id text_input_end_icon
 id text_input_start_icon
+id text_view_welcome_msg
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2090,8 +2088,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
 layout custom_dialog
+layout dashboard_fragment
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2108,8 +2106,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dynamic_feature_install_fragment
-layout item_view_child
-layout item_view_horizontal
+layout item_view_items
+layout layout_card_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2202,6 +2200,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string desc_card_image
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2214,6 +2213,7 @@ string installing_module
 string item_view_role_description
 string material_slider_range_end
 string material_slider_range_start
+string msg_welcome
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description

@@ -5,10 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
-import com.example.projectjuicyfruit.data.petfinder.Animal.PetDetails
 import com.example.projectjuicyfruit.network.ApiClient
 import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
 import dagger.hilt.android.AndroidEntryPoint
@@ -33,18 +32,7 @@ class DashboardFragment : Fragment() {
   @Inject
   lateinit var preferences: SharedPreferencesHelper
 
-  private var items: MutableList<PetDetails>
   private val itemsAdapter = ItemsAdapter(mutableListOf())
-
-  init {
-    items = MutableList(10) {
-      PetDetails(
-        1,
-        "Pet Number ${it + 1}",
-        "https://images.dog.ceo/breeds/ridgeback-rhodesian/n02087394_138.jpg"
-      )
-    }
-  }
 
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -69,8 +57,8 @@ class DashboardFragment : Fragment() {
   }
 
   private fun inflateRecyclerView() {
-    val layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
-    horizontal_recview.layoutManager = layoutManager
-    horizontal_recview.adapter = itemsAdapter
+    val layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+    dashboard_rv.layoutManager = layoutManager
+    dashboard_rv.adapter = itemsAdapter
   }
 }

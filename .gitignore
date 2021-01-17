@@ -1,7 +1,8 @@
 *.iml
 *.iws
-.gradle
+/.gradle
 local.properties
+/.idea
 .idea/libraries
 .idea/tasks.xml
 .idea/vcs.xml
