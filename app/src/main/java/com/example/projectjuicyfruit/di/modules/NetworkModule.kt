@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.projectjuicyfruit.network.ApiClient
 import com.example.projectjuicyfruit.network.PetFinderInterceptor
 import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
+import com.example.projectjuicyfruit.viewmodels.PetFinderViewModel
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -24,7 +25,7 @@ object NetworkModule {
   fun provideIOScheduler(): Scheduler = Schedulers.io()
 
   @Provides
-  @Named("main-thread-scheduler")
+  @Named("main-scheduler")
   fun provideMainThreadScheduler(): Scheduler = AndroidSchedulers.mainThread()
 
   @Provides
@@ -45,4 +46,11 @@ object NetworkModule {
   @Provides
   fun providesSharedPreferences(@ApplicationContext context: Context): SharedPreferencesHelper =
     SharedPreferencesHelper(context)
+
+  @Provides
+  fun providePetFinderViewModel(
+    apiClient: ApiClient,
+    @Named("io-scheduler") ioScheduler: Scheduler,
+    @Named("main-scheduler") mainThreadScheduler: Scheduler
+  ): PetFinderViewModel = PetFinderViewModel(apiClient, ioScheduler, mainThreadScheduler)
 }

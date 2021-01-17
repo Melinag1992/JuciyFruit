@@ -62,6 +62,8 @@ dependencies {
     //Hilt
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
+
     //Design
     implementation "androidx.constraintlayout:constraintlayout:2.0.4"
     implementation 'com.google.android.material:material:1.2.1'

@@ -1,3 +1,5 @@
+# Source : http://dimitar.me/android-studio-what-files-and-directories-to-exclude-when-importing-into-subversion-or-git/
+
 # Built application files
 *.apk
 *.ap_

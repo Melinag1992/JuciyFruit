@@ -8,31 +8,17 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
-import com.example.projectjuicyfruit.network.ApiClient
-import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
+import com.example.projectjuicyfruit.viewmodels.PetFinderViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import io.reactivex.rxjava3.core.Scheduler
 import kotlinx.android.synthetic.main.dashboard_fragment.*
 import javax.inject.Inject
-import javax.inject.Named
 
 @AndroidEntryPoint
 class DashboardFragment : Fragment() {
-  @Inject
-  lateinit var apiClient: ApiClient
-
-  @Inject
-  @Named("io-scheduler")
-  lateinit var scheduler: Scheduler
-
-  @Inject
-  @Named("main-thread-scheduler")
-  lateinit var mainThreadScheduler: Scheduler
-
-  @Inject
-  lateinit var preferences: SharedPreferencesHelper
-
   private val itemsAdapter = ItemsAdapter(mutableListOf())
+
+  @Inject
+  lateinit var petFinderViewModel: PetFinderViewModel
 
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -45,15 +31,10 @@ class DashboardFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
     inflateRecyclerView()
-    apiClient.getAnimals()
-      .subscribeOn(scheduler)
-      .observeOn(mainThreadScheduler)
-      .subscribe(
-        {
-          itemsAdapter.setData(it.animals.toMutableList())
-        },
-        Throwable::printStackTrace
-      )
+    petFinderViewModel.getAnimals()
+    petFinderViewModel.getAnimalsLiveData().observe(viewLifecycleOwner, {
+      itemsAdapter.setData(it.toMutableList())
+    })
   }
 
   private fun inflateRecyclerView() {
