@@ -82,7 +82,7 @@ class PetFinderInterceptor @Inject constructor(
 
   private fun attachAuthHeader(initialRequest: Request, token: String): Request {
     val headers = Headers.Builder()
-      .add(CONST_AUTH_HEADER_KEY, "Bearer $token")
+      .add(AUTH_HEADER_KEY, "Bearer $token")
       .build()
 
     return initialRequest.newBuilder()
@@ -91,6 +91,6 @@ class PetFinderInterceptor @Inject constructor(
   }
 
   companion object {
-    const val CONST_AUTH_HEADER_KEY = "Authorization"
+    const val AUTH_HEADER_KEY = "Authorization"
   }
 }

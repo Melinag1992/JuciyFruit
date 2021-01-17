@@ -66,7 +66,6 @@ class ApiClient @Inject constructor(
     const val PET_FINDER_BASE_URL: String = "https://api.petfinder.com/v2/"
   }
 
-
   /**
    * Gets new auth token
    *
@@ -85,41 +84,4 @@ class ApiClient @Inject constructor(
    * */
   fun getAnimals() = petFinderApi.getAnimals()
 
-//  /**
-//   * Gets [Volume]s by author
-//   *
-//   * See [GoogleBooksApi.searchByAuthor]
-//   */
-//  fun searchByAuthor(author: String) = googleBooksApi.searchByAuthor(author)
-//
-//  /**
-//   * Gets [Volume]s by ISBN
-//   *
-//   * See [GoogleBooksApi.searchByISBN]
-//   */
-//  fun searchByISBN(isbn: String) = googleBooksApi.searchByISBN(isbn)
-//
-//  /**
-//   * Gets a [BestSellersList] by name
-//   *
-//   * See [NYTimesApi.getBestSellersList]
-//   */
-//  fun getBestSellersList(listName: String) =
-//    nyTimesApi.getBestSellersList(NYTIMES_API_KEY, listName)
-//
-//  /**
-//   * Gets a list of the top 5 [BestSellersBook] from each [TimesList]
-//   *
-//   * See [NYTimesApi.getTopFiveBestSellers]
-//   */
-//  fun getBestSellersOverview(): Single<List<BestSellersOverviewList>> {
-//    return nyTimesApi.getTopFiveBestSellers(NYTIMES_API_KEY).map { it.results.lists }
-//  }
-//
-//  /**
-//   * Gets a list of all [TimesListName]s
-//   *
-//   * See [NYTimesApi.getBestSellersListNames]
-//   */
-//  fun getBestSellersListNames() = nyTimesApi.getBestSellersListNames(NYTIMES_API_KEY)
 }

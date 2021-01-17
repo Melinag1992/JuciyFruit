@@ -11,10 +11,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.new_activity_main)
 
-//        if (prefHelper.getClientSecret() == "") {
-//            showClientSecretInput()
-//        }
-
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.nav_host_fragment_container, DashboardFragment())
