@@ -1,7 +1,6 @@
 package com.example.projectjuicyfruit.screens
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,22 +10,28 @@ import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
 import com.example.projectjuicyfruit.data.petfinder.Pet.PetDetails
 import com.example.projectjuicyfruit.network.ApiClient
+import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
+import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.rxjava3.core.Scheduler
 import kotlinx.android.synthetic.main.dashboard_fragment.*
 import javax.inject.Inject
 import javax.inject.Named
 
+@AndroidEntryPoint
 class DashboardFragment : Fragment() {
   @Inject
   lateinit var apiClient: ApiClient
 
   @Inject
-  @Named("ioScheduler")
+  @Named("io-scheduler")
   lateinit var scheduler: Scheduler
 
   @Inject
-  @Named("mainThreadScheduler")
+  @Named("main-thread-scheduler")
   lateinit var mainThreadScheduler: Scheduler
+
+  @Inject
+  lateinit var preferences: SharedPreferencesHelper
 
   private var items: MutableList<PetDetails>
 
@@ -56,7 +61,7 @@ class DashboardFragment : Fragment() {
       .observeOn(mainThreadScheduler)
       .subscribe(
         {
-          Log.d("TOKEN CALL SUCCESS", "onViewCreated: ")
+          preferences.savePetFinderAuthToken(it.accessToken)
         },
         Throwable::printStackTrace
       )

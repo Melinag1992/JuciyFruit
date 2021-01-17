@@ -2,8 +2,9 @@ package com.example.projectjuicyfruit.utils
 
 import android.content.Context
 import com.example.projectjuicyfruit.utils.extensions.getDefaultSharedPreferences
+import javax.inject.Inject
 
-class SharedPreferencesHelper(context: Context) {
+class SharedPreferencesHelper @Inject constructor(context: Context) {
   private val preferences = context.getDefaultSharedPreferences(Context.MODE_PRIVATE)
 
   fun getPetFinderAuthToken() = preferences.getString(PREF_KEY_PET_FINDER_AUTH_TOKEN, null)

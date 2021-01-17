@@ -1,46 +1,56 @@
 package com.example.projectjuicyfruit.network
 
+import android.util.Log
+import com.example.projectjuicyfruit.BuildConfig
+import com.example.projectjuicyfruit.data.petfinder.PetFinderToken
 import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
-import io.reactivex.rxjava3.core.Scheduler
+import com.google.gson.Gson
 import okhttp3.Headers
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
 import javax.inject.Inject
-import javax.inject.Named
 
-class PetFinderInterceptor(
-  @Named("ioScheduler") private val scheduler: Scheduler
+class PetFinderInterceptor @Inject constructor(
+  private val preferences: SharedPreferencesHelper
 ) : Interceptor {
-
-  @Inject
-  private lateinit var preferences: SharedPreferencesHelper
-
-  @Inject
-  private lateinit var apiClient: ApiClient
 
   override fun intercept(chain: Interceptor.Chain): Response {
     var tokenFetchSuccess = true
     val initialRequest = chain.request()
 
-    val response = chain.proceed(initialRequest)
+    var response = chain.proceed(initialRequest)
 
     when (response.code) {
       401, 403 ->
         synchronized(this) {
           try {
-            apiClient
-              .getPetFinderToken()
-              .subscribeOn(scheduler)
-              .subscribe(
-                {
-                  preferences.savePetFinderAuthToken(it.accessToken)
-                }, {
-                  tokenFetchSuccess = false
-                  throw it
-                }
-              )
+            Log.d("401 INTERCEPT", "intercept: INTERCEPT 401")
+            response.close()
+
+            var refreshTokenRequest =
+              initialRequest
+                .newBuilder()
+                .header("grant_type", "client_credentials")
+                .header("client_id", BuildConfig.PetFinderClientId)
+                .header("client_secret", BuildConfig.PetFinderClientSecret)
+                .url(ApiClient.PET_FINDER_BASE_URL + "oauth2/token")
+                .build()
+
+            refreshTokenRequest =
+              attachAuthHeader(refreshTokenRequest, preferences.getPetFinderAuthToken() ?: "")
+
+            response = chain.proceed(refreshTokenRequest)
+
+            if (response.isSuccessful) {
+              Log.d("REFRESH", "intercept: refresh call success")
+              val newToken =
+                Gson().fromJson(response.body?.string(), PetFinderToken::class.java)
+              preferences.savePetFinderAuthToken(newToken.accessToken)
+              response.close()
+            }
           } catch (exception: Throwable) {
+            tokenFetchSuccess = false
             exception.printStackTrace()
             response.close()
             return chain.proceed(initialRequest)
@@ -48,8 +58,8 @@ class PetFinderInterceptor(
             if (tokenFetchSuccess) {
               preferences.getPetFinderAuthToken()?.let {
                 val newRequestWithNewToken = attachAuthHeader(initialRequest, it)
-                response.body?.close()
-                return chain.proceed(newRequestWithNewToken)
+                response = chain.proceed(newRequestWithNewToken)
+                return response
               }
             }
           }
@@ -60,20 +70,17 @@ class PetFinderInterceptor(
         return chain.proceed(initialRequest)
       }
     }
-
     return response
   }
 
   private fun attachAuthHeader(initialRequest: Request, token: String): Request {
     val headers = Headers.Builder()
-      .addAll(initialRequest.headers)
-      .add(CONST_AUTH_HEADER_KEY, "Bearer $token")
+      .add(CONST_AUTH_HEADER_KEY, " Bearer $token")
       .build()
 
     return initialRequest.newBuilder()
       .headers(headers)
       .build()
-
   }
 
   companion object {
