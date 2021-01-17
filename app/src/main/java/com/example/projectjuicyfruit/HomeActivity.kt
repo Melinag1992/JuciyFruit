@@ -2,7 +2,7 @@ package com.example.projectjuicyfruit
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.projectjuicyfruit.screens.DashboardFragment
+import com.example.projectjuicyfruit.views.DashboardFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
