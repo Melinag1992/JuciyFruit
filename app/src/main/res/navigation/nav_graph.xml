@@ -11,13 +11,6 @@
         <action
             android:id="@+id/next_action"
             app:destination="@+id/fragment_two" />
-        <!--        <action-->
-        <!--            android:id="@+id/action_title_screen_to_register"-->
-        <!--            app:destination="@id/fragment_tw"-->
-        <!--            app:popEnterAnim="@anim/slide_in_left"-->
-        <!--            app:popExitAnim="@anim/slide_out_right"-->
-        <!--            app:enterAnim="@anim/slide_in_right"-->
-        <!--            app:exitAnim="@anim/slide_out_left"/>-->
 
     </fragment>
     <fragment
