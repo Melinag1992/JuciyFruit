@@ -14,11 +14,19 @@
 
     // --- Pastels ---//
 
-    <color name="light_mint">#a8e6cf</color>
+
     <color name="light_yellow">#dcedc1</color>
     <color name="light_orange">#ffd3b6</color>
     <color name="light_red_orange">#ffaaa5</color>
     <color name="light_red">#ff8b94</color>
+
+
+    //--- Purple palette ---//
+    <color name="purple">#5d54a4</color>
+    <color name="light_purple">#9d65c9</color>
+    <color name="purp_palette_pink">#d789d7</color>
+    <color name="purp_palette_indigo">#2a3d66</color>
+
 
 
 

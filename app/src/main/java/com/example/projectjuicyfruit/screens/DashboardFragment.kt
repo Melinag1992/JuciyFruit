@@ -4,26 +4,45 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
-import androidx.navigation.fragment.NavHostFragment.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
-import com.example.projectjuicyfruit.data.Animal
+import com.example.projectjuicyfruit.data.petfinder.Animal.PetDetails
+import com.example.projectjuicyfruit.network.ApiClient
+import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
+import dagger.hilt.android.AndroidEntryPoint
+import io.reactivex.rxjava3.core.Scheduler
 import kotlinx.android.synthetic.main.dashboard_fragment.*
+import javax.inject.Inject
+import javax.inject.Named
 
+@AndroidEntryPoint
 class DashboardFragment : Fragment() {
-  private var items: MutableList<Animal>
+  @Inject
+  lateinit var apiClient: ApiClient
+
+  @Inject
+  @Named("io-scheduler")
+  lateinit var scheduler: Scheduler
+
+  @Inject
+  @Named("main-thread-scheduler")
+  lateinit var mainThreadScheduler: Scheduler
+
+  @Inject
+  lateinit var preferences: SharedPreferencesHelper
+
+  private var items: MutableList<PetDetails>
+  private val itemsAdapter = ItemsAdapter(mutableListOf())
 
   init {
-    items = MutableList(5) {
-      Animal(
-        "Animal ${it + 1}",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.guidedogs.org%2Fwp-content%2Fuploads%2F2018%2F01%2FMobile.jpg&f=1&nofb=1",
-        it + 1
+    items = MutableList(10) {
+      PetDetails(
+        1,
+        "Pet Number ${it + 1}",
+        "https://images.dog.ceo/breeds/ridgeback-rhodesian/n02087394_138.jpg"
       )
     }
   }
@@ -39,14 +58,23 @@ class DashboardFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
     inflateRecyclerView()
+    apiClient.getAnimals()
+      .subscribeOn(scheduler)
+      .observeOn(mainThreadScheduler)
+      .subscribe(
+        {
+          itemsAdapter.setData(it.animals.toMutableList())
+        },
+        Throwable::printStackTrace
+      )
     text_view_welcome_msg.setOnClickListener {
-      findNavController(this).navigate(R.id.next_action, null)
+      NavHostFragment.findNavController(this).navigate(R.id.next_action, null)
     }
   }
 
   private fun inflateRecyclerView() {
     val layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
     horizontal_recview.layoutManager = layoutManager
-    horizontal_recview.adapter = ItemsAdapter(items)
+    horizontal_recview.adapter = itemsAdapter
   }
 }
