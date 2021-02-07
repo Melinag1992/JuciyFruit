@@ -2,14 +2,19 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
-    id("org.jetbrains.kotlin.android.extensions")
     id 'dagger.hilt.android.plugin'
+    /* we use the kotlin parcelize plugin in order to allow coexistence between view-binding and
+     parcelize features*/
+    id 'kotlin-parcelize'
 }
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    buildFeatures{
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "com.example.projectjuicyfruit"
@@ -45,7 +50,7 @@ android {
 dependencies {
     def versions = [
             okhttp3   : '4.7.2',
-            navigation: '2.3.2',
+            navigation: '2.3.3',
             retrofit  : '2.9.0',
             rxJava    : '3.0.4',
             rxKotlin  : '3.0.0',
@@ -102,6 +107,6 @@ dependencies {
     androidTestImplementation "androidx.navigation:navigation-testing:${versions.navigation}"
 
     // Jetpack Compose Integration
-    implementation "androidx.navigation:navigation-compose:1.0.0-alpha04"
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha06"
 }
 

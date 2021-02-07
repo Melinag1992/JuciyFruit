@@ -5,14 +5,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
+import com.example.projectjuicyfruit.databinding.DashboardFragmentBinding
+import com.example.projectjuicyfruit.databinding.DashboardFragmentBinding.inflate
 import com.example.projectjuicyfruit.network.ApiClient
 import com.example.projectjuicyfruit.utils.SharedPreferencesHelper
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.rxjava3.core.Scheduler
-import kotlinx.android.synthetic.main.dashboard_fragment.*
 import javax.inject.Inject
 import javax.inject.Named
 
@@ -33,13 +35,17 @@ class DashboardFragment : Fragment() {
   lateinit var preferences: SharedPreferencesHelper
 
   private val itemsAdapter = ItemsAdapter(mutableListOf())
+  private var _binding: DashboardFragmentBinding? = null
+  private val binding get() = _binding!!
+
 
   override fun onCreateView(
     inflater: LayoutInflater,
     container: ViewGroup?,
     savedInstanceState: Bundle?
-  ): View? {
-    return inflater.inflate(R.layout.dashboard_fragment, container, false)
+  ): View {
+    _binding = inflate(inflater, container, false)
+    return binding.root
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -58,7 +64,12 @@ class DashboardFragment : Fragment() {
 
   private fun inflateRecyclerView() {
     val layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
-    dashboard_rv.layoutManager = layoutManager
-    dashboard_rv.adapter = itemsAdapter
+    binding.dashboardRv.layoutManager = layoutManager
+    binding.dashboardRv.adapter = itemsAdapter
+  }
+  
+  override fun onDestroyView() {
+    super.onDestroyView()
+    _binding = null
   }
 }
