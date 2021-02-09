@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.adapters.ItemsAdapter
@@ -66,6 +67,9 @@ class DashboardFragment : Fragment() {
         },
         Throwable::printStackTrace
       )
+    text_view_welcome_msg.setOnClickListener {
+      NavHostFragment.findNavController(this).navigate(R.id.next_action, null)
+    }
   }
 
   private fun inflateRecyclerView() {

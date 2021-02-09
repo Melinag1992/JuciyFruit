@@ -2,16 +2,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeActivity">
+    app:startDestination="@id/dashboardFragment">
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.projectjuicyfruit.screens.DashboardFragment"
+        android:label="DashboardFragment">
 
-    <activity
-        android:id="@+id/homeActivity"
-        android:name="com.example.projectjuicyfruit.HomeActivity"
-        android:label="HomeActivity"/>
-    <action
-        android:id="@+id/homeActivity_to_action_placeholder"
-        app:destination="@+id/placeholder" />
-        />
-    <fragment android:id="@+id/placeholder">
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/details_fragment" />
+
     </fragment>
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="com.example.projectjuicyfruit.screens.DetailsFragment"
+        android:label="DetailsFragment">
+        <action
+            android:id="@+id/back_home"
+            app:destination="@+id/dashboardFragment" />
+    </fragment>
+
+
 </navigation>

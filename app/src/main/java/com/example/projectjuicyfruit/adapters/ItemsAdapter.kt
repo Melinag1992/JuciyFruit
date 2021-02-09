@@ -2,10 +2,12 @@ package com.example.projectjuicyfruit.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.projectjuicyfruit.R
 import com.example.projectjuicyfruit.data.petfinder.Animal.PetDetails
 import com.example.projectjuicyfruit.viewholders.ItemsViewHolder
+import kotlinx.android.synthetic.main.layout_card_item.view.*
 
 class ItemsAdapter(private var items: MutableList<PetDetails>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -21,6 +23,11 @@ class ItemsAdapter(private var items: MutableList<PetDetails>) :
             is ItemsViewHolder -> {
                 if (position != RecyclerView.NO_POSITION) {
                     holder.bind(items[position])
+
+                    // added the click here vs. on Bind because we have access to the navcontroller
+                    holder.itemView.view_details_btn.setOnClickListener{ view ->
+                        view.findNavController().navigate(R.id.next_action, null)
+                    }
                 }
             }
         }
