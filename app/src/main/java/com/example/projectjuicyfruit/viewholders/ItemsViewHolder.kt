@@ -18,7 +18,7 @@ class ItemsViewHolder(view: View) : RecyclerView.ViewHolder(view) {
   private var detailsBtn: Button = view.findViewById(R.id.view_details_btn)
 //  private var navController = view.findNavController()
 
-  fun bind(animal: Animal.PetDetails, holder: ItemsViewHolder) {
+  fun bind(animal: Animal.PetDetails) {
     textViewName.text = animal.name
     animal.photos?.let {
       if (it.isNotEmpty()) Picasso.get().load(it[0].medium).into(imageView)

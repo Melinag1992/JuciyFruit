@@ -22,7 +22,7 @@ class ItemsAdapter(private var items: MutableList<PetDetails>) :
         when (holder) {
             is ItemsViewHolder -> {
                 if (position != RecyclerView.NO_POSITION) {
-                    holder.bind(items[position],holder)
+                    holder.bind(items[position])
 
                     // added the click here vs. on Bind because we have access to the navcontroller
                     holder.itemView.view_details_btn.setOnClickListener{ view ->
