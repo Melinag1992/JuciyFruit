@@ -10,13 +10,13 @@
 
         <action
             android:id="@+id/next_action"
-            app:destination="@+id/fragment_two" />
+            app:destination="@+id/details_fragment" />
 
     </fragment>
     <fragment
-        android:id="@+id/fragment_two"
-        android:name="com.example.projectjuicyfruit.screens.FragmentTwo"
-        android:label="Fragment_two">
+        android:id="@+id/details_fragment"
+        android:name="com.example.projectjuicyfruit.screens.DetailsFragment"
+        android:label="DetailsFragment">
         <action
             android:id="@+id/back_home"
             app:destination="@+id/dashboardFragment" />

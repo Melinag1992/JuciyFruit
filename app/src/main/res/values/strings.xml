@@ -2,4 +2,7 @@
     <string name="app_name">JuicyFruit</string>
     <string name="desc_card_image">Card Image</string>
     <string name="msg_welcome">Find your new best friend!</string>
+    <string name="str_nearby">Nearby</string>
+    <string name="str_details">Details</string>
+    <string name="str_click_go_back">Click to go back</string>
 </resources>

@@ -7,16 +7,17 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import com.example.projectjuicyfruit.R
-import kotlinx.android.synthetic.main.fragment_two.*
+import kotlinx.android.synthetic.main.details_fragment.*
 
 
-class FragmentTwo : Fragment() {
+
+class DetailsFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_two, container, false)
+        return inflater.inflate(R.layout.details_fragment, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
